@@ -1,0 +1,9 @@
+1、关闭所有浏览器
+2、删除原有所有表结构
+3、备份代码后删除已部署代码
+4、将最新版本代码解压到部署路径下
+5、确认WWW\public目录下没有install.lock文件，如有install.lock则系统为已安装状态
+6、可以修改WWW\install\install_blank.sql（不导入示例数据）或WWW\install\install_demo.sql（导入示例数据），修改数据库初始化数据
+7、打开浏览器，输入IP/m.php，点击开始安装
+8、进入管理平台，可在系统设置，使用WWW\public\attachment\201511\05\19的logo.png作为临时的logo图片，修改站点名称等
+9、在前端管理，对导航菜单进行增加、修改、删除
